@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    while i!=len(s):
+        d=s.isdigit(i)
+        i+=1
+    return i
+print(main('ss12'))

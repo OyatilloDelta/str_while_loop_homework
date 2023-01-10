@@ -7,13 +7,11 @@ def main(s):
         int: return answer
     """
     i=0
-    while i!=len(s):
-        if i[s]==1:
-            ans+=1
-        if i[s]==2:
-            ans+=1
-        if i[s]==3:
-            ans+=1
-        
-    return ans
-print(main('213'))
+    j=0
+    while i<len(s):
+        if s[i].isdigit():
+            j+=1
+        i+=1
+    return j
+print(main('jscv 345'))
+    
