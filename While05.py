@@ -9,11 +9,9 @@ def main(s):
     i=0
     j=0
     while i<len(s):
-        if s[i].isupper():
+        if s[i].islower():
             j+=1
         i+=1
     
-
-   
     return j
-print(main('oYUyt'))
+print(main('fbvhbcA'))
