@@ -7,9 +7,11 @@ def main(s):
         int: return answer
     """
     i=0
-    while i!=len(s):
-        d=s.isupper
-        x=len(d)
+    j=0
+    while i<len(s):
+        if s[i].isupper():
+            j+=1
         i+=1
-    return i
-print(main('SSSfghjh'))
+
+    return j
+print(main('Sfghjh'))
