@@ -7,8 +7,10 @@ def main(s):
         int: return answer
     """
     i=0
-    while i!=len(s):
-        d=s.isdigit(i)
+    k=0
+    while i<len(s):
+        if s[i].islower():
+            k+=1
         i+=1
-    return i
+    return k
 print(main('ss12'))
