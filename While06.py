@@ -8,7 +8,13 @@ def main(s):
         int: return answer
     """
     i=0
+    j=0
+    x="aioueo'"
     while i<len(s):
-        if 
+        if not s[i] in x:
+            j+=1
+        i+=1
+    return j
+print(main('oyy'))
 
    
